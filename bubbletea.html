@@ -1,0 +1,38 @@
+<!-- 함수를 사용해서 버블티 주문 (swith사용, 최소 메뉴 개수 5개) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function menu(){
+        var menu1 = prompt("1=초코버블티 2=딸기버블티 3=타로버블티 4=바닐라버블티 5=오레오바닐라버블티입니다");
+        switch(menu1){
+            case "1" :
+                document.write("초코버블티가 선택되었습니다");
+                break;
+            case "2" :
+                document.write("딸기버블티가 선택되었습니다");
+                break;
+            case "3" :
+                document.write("타로버블티가 선택되었습니다");
+                break;
+            case "4" :
+                document.write("바닐라버블티가 선택되었습니다");
+                break;
+            case "5" :
+            document.write("오레오바닐라버블티가 선택되었습니다");
+            break;
+        default : 
+            alert("그런 메뉴는 없습니다")
+
+        }
+    }
+    menu()
+</script>
+</html>
